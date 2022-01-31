@@ -6,7 +6,7 @@ import { EngineOptions } from './interfaces/engine-options.interface';
  * @param {EngineOptions} params
  * @return {(filePath: string, data: any, next) => void}
  */
-export function createEngine(params: EngineOptions) {
+export function nestEdge(params: EngineOptions) {
   const options = params.options || {};
 
   const edge = new Edge(options);

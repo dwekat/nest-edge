@@ -1,17 +1,17 @@
-import { createEngine } from './index';
+import { nestEdge } from './index';
 
 const obj = {
-  createEngine,
+  nestEdge,
 };
 
 test('Check call', () => {
-  const somethingSpy = jest.spyOn(obj, 'createEngine');
-  obj.createEngine({ viewsRoot: '' });
+  const somethingSpy = jest.spyOn(obj, 'nestEdge');
+  obj.nestEdge({ viewsRoot: '' });
   expect(somethingSpy).toHaveBeenCalled();
 });
 
 test('Check return', () => {
-  const somethingSpy = jest.spyOn(obj, 'createEngine');
-  obj.createEngine({ viewsRoot: '' });
+  const somethingSpy = jest.spyOn(obj, 'nestEdge');
+  obj.nestEdge({ viewsRoot: '' });
   expect(somethingSpy).toReturn();
 });
