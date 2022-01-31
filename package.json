@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Use Edge.js templating engine in NestJs applecation.",
   "main": "dist/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "dist/**/*",
     "*.md"
