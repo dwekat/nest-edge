@@ -7,7 +7,9 @@ import { EngineOptions } from './interfaces/engine-options.interface';
  * @return {(filePath: string, data: any, next) => void}
  */
 export function createEngine(params: EngineOptions) {
-  const edge = new Edge(params.options);
+  const options = params.options || {};
+
+  const edge = new Edge(options);
   edge.mount(params.viewsRoot);
 
   return function edgeTemplateEngine(filePath: string, data: any, next) {
