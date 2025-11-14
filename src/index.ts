@@ -12,8 +12,7 @@ export function nestEdge(params: EngineOptions) {
   const edge = new Edge(options);
   edge.mount(params.viewsRoot);
 
-  return function edgeTemplateEngine(filePath: string, data: any, next) {
-    //eslint-disable-next-line @typescript-eslint/no-var-requires
+  return function edgeTemplateEngine(filePath: string, data: any, next: (err: Error | null, html?: string) => void) {
     const html = edge.renderSync(filePath, data);
     next(null, html);
   };
