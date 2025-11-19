@@ -1,0 +1,15 @@
+src/
+*.spec.ts
+*.test.ts
+.changeset/
+.eslintrc.js
+eslint.config.mjs
+.prettierrc
+jestconfig.json
+tsconfig.json
+tsconfig.build.json
+.github/
+.vscode/
+.idea/
+*.tsbuildinfo
+
