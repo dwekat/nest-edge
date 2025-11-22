@@ -1,5 +1,7 @@
 # Nest-Edge
 
+<a href="https://www.buymeacoffee.com/dwekat" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="217"></a>
+
 Edge templating engine implementation for Nest.Js
 
 
