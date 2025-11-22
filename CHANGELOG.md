@@ -1,5 +1,11 @@
 # nest-edge
 
+## 2.0.2
+
+### Patch Changes
+
+- Added buy me a coffee button to README
+
 ## 2.0.1
 
 ### Patch Changes
