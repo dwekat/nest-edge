@@ -1,5 +1,11 @@
 # nest-edge
 
+## 2.0.3
+
+### Patch Changes
+
+- Broaden NestJS peer dependencies to support >=10.0.0
+
 ## 2.0.2
 
 ### Patch Changes
@@ -33,4 +39,3 @@
 - Updated to ESLint 9 flat config format
 - Improved test coverage with proper mocking
 - Node.js engine requirement added to package.json
-
