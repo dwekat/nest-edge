@@ -1,5 +1,11 @@
 # nest-edge
 
+## 2.0.4
+
+### Patch Changes
+
+- Bump edge.js to ^6.5.0 and update devDependencies
+
 ## 2.0.3
 
 ### Patch Changes
