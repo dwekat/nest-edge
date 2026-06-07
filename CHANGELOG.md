@@ -1,5 +1,13 @@
 # nest-edge
 
+## 2.0.5
+
+### Patch Changes
+
+- Maintenance release: bump dev dependencies (eslint 10, @types/node 25, jest,
+  ts-jest, typescript-eslint, prettier) and add a tag-triggered GitHub Actions
+  workflow that publishes to npm with provenance.
+
 ## 2.0.4
 
 ### Patch Changes
