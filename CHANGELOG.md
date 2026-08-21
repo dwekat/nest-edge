@@ -1,5 +1,11 @@
 # nest-edge
 
+## 2.0.6
+
+### Patch Changes
+
+- Dependency maintenance: refresh dev toolchain and clear open security advisories.
+
 ## 2.0.5
 
 ### Patch Changes
