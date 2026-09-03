@@ -1,5 +1,11 @@
 # nest-edge
 
+## 2.0.7
+
+### Patch Changes
+
+- Update development toolchain dependencies (@types/node, @typescript-eslint, eslint, jest). No runtime dependency or public API change.
+
 ## 2.0.6
 
 ### Patch Changes
