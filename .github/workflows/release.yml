@@ -18,7 +18,7 @@ jobs:
       # registry-url wires NODE_AUTH_TOKEN into .npmrc for npm publish.
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
           registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies
