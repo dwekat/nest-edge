@@ -1,5 +1,11 @@
 # nest-edge
 
+## 2.0.9
+
+### Patch Changes
+
+- Fix the package entry points: `main` and `types` now point at `dist/`, so `nest-edge` resolves on install. Only `dist` and the changelog are published.
+
 ## 2.0.7
 
 ### Patch Changes
