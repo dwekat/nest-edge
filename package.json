@@ -2,8 +2,8 @@
   "name": "nest-edge",
   "version": "2.0.8",
   "description": "Use Edge.js templating engine in NestJs applecation.",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "npm test && npm run lint && tsc -p tsconfig.build.json",
@@ -56,5 +56,10 @@
   },
   "overrides": {
     "js-yaml": "^4.1.1"
-  }
+  },
+  "files": [
+    "dist",
+    "!dist/**/*.tsbuildinfo",
+    "CHANGELOG.md"
+  ]
 }
