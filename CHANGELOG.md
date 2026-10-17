@@ -1,5 +1,11 @@
 # nest-edge
 
+## 2.0.10
+
+### Patch Changes
+
+- Update the development-only Handlebars dependency from 4.7.9 to 4.7.10 to include upstream security fixes. No runtime API changes.
+
 ## 2.0.9
 
 ### Patch Changes
