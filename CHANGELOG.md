@@ -1,5 +1,11 @@
 # nest-edge
 
+## 2.0.11
+
+### Patch Changes
+
+- Update maintenance dependencies and migrate npm publishing to trusted publishing.
+
 ## 2.0.10
 
 ### Patch Changes
